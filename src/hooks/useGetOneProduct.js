@@ -24,4 +24,4 @@ const useGetOneProduct = (id) => {
 
     }
 }
-export default useGetOneProduct
+export default useGetOneProduct;

@@ -2,8 +2,7 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useEffect, useState } from "react"
 import axios from "axios"
-import useGetOneProduct from '../hooks/useGetOneproduct'
-
+import useGetOneProduct from '../hooks/useGetOneProduct'
 function ProductDetail() {
     const route = useParams();
     const { data, loading } = useGetOneProduct(route.id);
@@ -94,4 +93,4 @@ function ProductDetail() {
     )
 }
 
-export default ProductDetail
+export default ProductDetail;
