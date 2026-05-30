@@ -18,7 +18,7 @@ function Home() {
   }, [])
   return (
     <div className="font-jost">
-      <div className="bg-[url('./slide_02.jpg')] bg-[#f6e6cf]  bg-center bg-cover  lg:bg-contain bg-no-repeat flex items-center h-screen px-4 lg:px-40">
+      <div style={{backgroundImage: "url('./slide_02.jpg')"}} className=" bg-[#f6e6cf]  bg-center bg-cover  lg:bg-contain bg-no-repeat flex items-center h-screen px-4 lg:px-40">
         <div className="inline-block gap-4">
           <h2 className="text-2xl font-bold mb-2">New Collection</h2>
           <h1 className="text-6xl lg:text-7xl font-bold">Luxury Without <br /> Labels</h1>
